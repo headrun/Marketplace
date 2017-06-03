@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorGrey50"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/img_item"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:scaleType="fitXY"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:background="@color/colorGrey50" />
+
+
+        <TextView
+            android:id="@+id/txt_item_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:gravity="center"
+            android:lines="2"
+            android:minEms="4"
+            android:text="Moto g4 plus"
+            android:textColor="@color/black" />
+
+
+        <TextView
+            android:id="@+id/txt_item_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="10/-"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+</RelativeLayout>
